@@ -1,0 +1,21 @@
+body{
+    background-image: url('cinema.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.jumbotron{
+    color: rgb(233, 219, 29);
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.resultBox{
+    background-color:rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 20px;    
+}
+.title, .year, .resultBox h1{
+    color: rgb(233, 219, 29);
+}

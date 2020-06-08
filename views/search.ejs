@@ -1,0 +1,14 @@
+<%- include("partials/header") %>
+<div class="container">
+    <div class="jumbotron text-center">
+        <div class="container">
+          <h1 class="display-4">Need inspo for tonight's entertainment?</h1>
+          <p class="lead">Search with any word and get a list of films!</p>
+          <form action="/results" method="GET">
+            <input type="text" required class="form-control mb-3 w-75 mx-auto" name="searchTerm" placeholder="Let us help you find what to watch...">
+            <input class="btn btn-large btn-outline-warning" type="submit">
+        </form>
+      </div>
+    </div>
+  </div>
+<%- include("partials/footer") %>
